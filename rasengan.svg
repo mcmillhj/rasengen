@@ -1,0 +1,471 @@
+<svg
+  fill="#262626"
+  viewBox="0 0 300 300"
+  width="250"
+  height="250"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <foreignObject width="100%" height="100%">
+    <div style="display: flex; align-items: center; justify-content: center;" xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .rasengan {
+          margin-top: 20px;
+          position: relative;
+          width: 180px;
+          height: 180px;
+          background: radial-gradient(white 5%, #2994f2 40%);
+          border-radius: 50%;
+          box-shadow: 0 0 3px 0px white, 0 0 30px 15px #2994f2;
+          animation: sparkle 1.5s infinite linear;
+          backface-visibility: hidden;
+        }
+
+        .rasengan .spiral {
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 2px white;
+          border-radius: 50%;
+          position: absolute;
+          top: var(--size);
+          left: var(--size);
+          right: var(--size);
+          bottom: var(--size);
+          animation: rotate calc(var(--speed) * 0.03s) infinite linear;
+          backface-visibility: hidden;
+        }
+
+        @keyframes sparkle {
+          0,
+          100% {
+            box-shadow: 0 0 3px 0px white, 0 0 30px 15px #2994f2;
+          }
+
+          20% {
+            box-shadow: 0 0 5px 1px white, 0 0 25px 15px #2994f2;
+          }
+
+          40% {
+            box-shadow: 0 0 5px 0px white, 0 0 20px 15px #2994f2;
+          }
+
+          60% {
+            box-shadow: 0 0 5px 1px white, 0 0 20px 15px #2994f2;
+          }
+
+          80% {
+            box-shadow: 0 0 5px 0px white, 0 0 25px 15px #2994f2;
+          }
+        }
+
+        @keyframes rotate {
+          0% {
+            transform: rotateY(0);
+          }
+
+          100% {
+            transform: rotateZ(360deg) rotateX(360deg) rotateY(360deg);
+          }
+        }
+      </style>
+
+      <div class="rasengan">
+        <div
+          class="spiral"
+          style="--speed: 1; --size: 74.33141844955507px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 2; --size: 13.44866893413601px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 3; --size: 56.83003809284154px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 4; --size: 30.873749427562995px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 5; --size: 88.0692839396225px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 6; --size: 16.40796747631108px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 7; --size: 32.95490321631186px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 8; --size: 69.19622215814466px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 9; --size: 16.08882329738779px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 10; --size: 77.26900705336973px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 11; --size: 38.98135084729728px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 12; --size: 12.981588516286028px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 13; --size: 63.9937221493839px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 14; --size: 72.49948292671795px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 15; --size: 45.15471344655697px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 16; --size: 74.63010126642256px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 17; --size: 44.61636058301826px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 18; --size: 80.996149545434px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 19; --size: 35.63906418429493px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 20; --size: 27.953407443085812px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 21; --size: 63.83346073616437px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 22; --size: 44.172131618547574px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 23; --size: 51.80006830180805px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 24; --size: 36.55865728487815px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 25; --size: 11.610191515746248px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 26; --size: 56.839135414460664px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 27; --size: 26.12109510214962px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 28; --size: 25.702677891330598px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 29; --size: 69.04674474968553px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 30; --size: 49.42912153330757px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 31; --size: 44.4267019299089px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 32; --size: 18.7132095380961px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 33; --size: 37.63792546828549px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 34; --size: 23.51059283039495px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 35; --size: 78.73981801249529px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 36; --size: 23.542493387812637px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 37; --size: 18.919011854038885px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 38; --size: 24.763345251360178px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 39; --size: 89.87321895701021px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 40; --size: 56.4634536165007px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 41; --size: 10.713089373704854px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 42; --size: 22.960952388068726px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 43; --size: 96.90285551646988px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 44; --size: 35.71891239245998px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 45; --size: 27.700642001166628px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 46; --size: 10.506200040060236px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 47; --size: 35.75236867737705px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 48; --size: 92.6650879876277px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 49; --size: 42.61684174301625px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 50; --size: 44.29192644454928px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 51; --size: 90.66347254966551px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 52; --size: 55.803060893907734px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 53; --size: 21.628459837797287px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 54; --size: 93.83990140951471px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 55; --size: 73.5729117264995px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 56; --size: 86.93858612066381px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 57; --size: 24.698003131761258px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 58; --size: 43.51275124270337px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 59; --size: 10.562030472191736px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 60; --size: 35.37570203040946px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 61; --size: 31.43153373368911px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 62; --size: 97.45516600267436px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 63; --size: 21.595578617662365px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 64; --size: 50.662912515151945px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 65; --size: 78.37848871758305px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 66; --size: 42.59990063383293px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 67; --size: 62.49259928690213px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 68; --size: 21.863346127053017px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 69; --size: 95.95812568588674px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 70; --size: 43.47359174273824px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 71; --size: 50.25006649434621px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 72; --size: 26.389219530812568px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 73; --size: 93.96056728360014px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 74; --size: 40.41234054624215px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 75; --size: 22.426833669273265px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 76; --size: 76.12115168446141px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 77; --size: 85.2297965316977px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 78; --size: 69.06430316849861px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 79; --size: 57.93193048074536px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 80; --size: 97.40782177189007px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 81; --size: 84.25914890077667px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 82; --size: 54.465644873627305px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 83; --size: 77.6571045351738px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 84; --size: 10.032654706908215px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 85; --size: 26.41853774928797px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 86; --size: 57.5019092614841px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 87; --size: 96.45735165867686px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 88; --size: 18.909211460158364px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 89; --size: 58.18123189205995px"
+        ></div>
+        <div class="spiral" style="--speed: 90; --size: 15.24206889561px"></div>
+        <div
+          class="spiral"
+          style="--speed: 91; --size: 29.830280581668035px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 92; --size: 37.12208474844145px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 93; --size: 13.068690502380063px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 94; --size: 37.403678406019985px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 95; --size: 66.30738023553641px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 96; --size: 67.88507877509275px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 97; --size: 10.730808605996359px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 98; --size: 36.99208137979575px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 99; --size: 28.5025665361874px"
+        ></div>
+        <div
+          class="spiral"
+          style="--speed: 100; --size: 11.738255594745183px"
+        ></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
